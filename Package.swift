@@ -56,6 +56,7 @@ let package = Package(
                     .linkedFramework("VideoToolbox"),
                     .linkedLibrary("bz2"),
                     .linkedLibrary("c++"),
+                    .linkedFramework("CoreAudioTypes"),
                     .linkedLibrary("expat", .when(platforms: [.macOS])),
                     .linkedLibrary("iconv"),
                     .linkedLibrary("resolv"),
