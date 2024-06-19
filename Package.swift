@@ -182,8 +182,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "libass",
-            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.3/libass.zip",
-            checksum: "593b9455765fc465565f6f5f0968bb21f752d1871fa7dfa1a46b2c2323d17926"
+            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/pub/libass.zip",
+            checksum: "23e43ea1b2d345b68dc3eb8d33230fee76dfe5c5371ff6640576afda07da2cfa"
         ),
         .binaryTarget(
             name: "libmpv",
