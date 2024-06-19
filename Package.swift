@@ -96,133 +96,138 @@ let package = Package(
         ),
         .binaryTarget(
             name: "Libavcodec",
-            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.2/Libavcodec.zip",
-            checksum: "6c3dbe18b3457dafe1d1b41353f638c1c88540620c7a8477f3e0acba7b5b985a"
+            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.3/Libavcodec.zip",
+            checksum: "a28e1dbbaf72023bd409a5400f72017a303e97022dee1006a702d5026281691f"
         ),
         .binaryTarget(
             name: "Libavdevice",
-            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.2/Libavdevice.zip",
-            checksum: "91ba7834fb6017bcfee84d3e3491860554738b5d669aa6c52aab80e0ce351135"
+            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.3/Libavdevice.zip",
+            checksum: "0004a6d912c61247607c061b6695e049423e9eed484fc5ec804c4578e5f472aa"
         ),
         .binaryTarget(
             name: "Libavfilter",
-            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.2/Libavfilter.zip",
-            checksum: "98d4a760026d2af1341d2507fcdc65e68fb87d7850c45b1f2be425f89b83578d"
+            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.3/Libavfilter.zip",
+            checksum: "d5058479b293819c3be69a06cb5935b120655875a2f30fbf5e04be0882fc1b35"
         ),
         .binaryTarget(
             name: "Libavformat",
-            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.2/Libavformat.zip",
-            checksum: "4eabe83ce82722b51e6af1d2cf1737080f36e1db833df6946c9b6f9a7fde0443"
+            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.3/Libavformat.zip",
+            checksum: "bade665b94e4b22729b76e1cf3c6e84b8f2fafac6dffb97e08a63354b7a77f99"
         ),
         .binaryTarget(
             name: "Libavutil",
-            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.2/Libavutil.zip",
-            checksum: "c123d69a275ae656bcb032cfde840e9ec9d86d2d9f691e7d032d6ca3219604cd"
+            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.3/Libavutil.zip",
+            checksum: "fdf5a9057db7e0d85d6923b2b0c85ab19e3a45db3a806cac2ccb6a8d4c88764e"
         ),
         .binaryTarget(
             name: "Libswresample",
-            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.2/Libswresample.zip",
-            checksum: "a421ea51e24ff9325d7cf05cf7c08e4b9765f7d1d657d05b672b0ac0b581f33e"
+            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.3/Libswresample.zip",
+            checksum: "04e4f67ccadf710d63604cae089b82ccfab553585c87fc26b2c0736a3ecbdeb2"
         ),
         .binaryTarget(
             name: "Libswscale",
-            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.2/Libswscale.zip",
-            checksum: "97b260b8929273ebfba844f5a3b49e084262a4a77703d3a51bccd7d57d9c9387"
+            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.3/Libswscale.zip",
+            checksum: "e8a5d5ab3bbfd221a152a5c9c09212d0e1232ecfd47b18ff6b7d2a8a7f596e50"
         ),
         .binaryTarget(
             name: "MoltenVK",
-            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.2/MoltenVK.zip",
-            checksum: "341112b3b757845bda0d465f05aef0e192679cd35b7c2fa2861c4b3b82dff5af"
+            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.3/MoltenVK.zip",
+            checksum: "bdd9dc8784ecadc2f18b0479bc3e7188f3d818ed8cf1a2d86ee389e282a23012"
         ),
         .binaryTarget(
             name: "gmp",
-            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.2/gmp.zip",
-            checksum: "303926e5d547186f586030fecff855f5092f229ef438f093c3541cd1787139d9"
+            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.3/gmp.zip",
+            checksum: "ffd300f6d129b37d596870fc471d735a9f88be34693a73ea068cd34b4599d940"
         ),
         .binaryTarget(
             name: "gnutls",
-            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.2/gnutls.zip",
-            checksum: "7f73183474ee249c427097c2a75d023954cefc86f4b86f99c6a874ee0514bcd0"
+            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.3/gnutls.zip",
+            checksum: "8b9c029c86f96df59c4f025062e6bb82444a38d760a2128433c2e0df0ba08c50"
         ),
         .binaryTarget(
             name: "hogweed",
-            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.2/hogweed.zip",
-            checksum: "31bb17e25587857de43d334b3333696b252c5902345156fb13cfd6ca853fed53"
+            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.3/hogweed.zip",
+            checksum: "48ea66aa129e4b64a3037ed56889f9f5cae30ea9c74285d49fdf1649c6eab2eb"
         ),
         .binaryTarget(
             name: "lcms2",
-            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.2/lcms2.zip",
-            checksum: "99e315a72b8697f18d65540785c64cdd6739a5851bd923c8d787ef0bb5ed99ac"
+            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.3/lcms2.zip",
+            checksum: "bdf6766c934465f7671e543b28dbeb4a4cae77474259df0acd721c6635154ea5"
         ),
         .binaryTarget(
             name: "libass",
-            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.2/libass.zip",
-            checksum: "3af55f06d218e1459afb5e93e5d741bfc44e916752c127384beec53852c2b95c"
+            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.3/libass.zip",
+            checksum: "593b9455765fc465565f6f5f0968bb21f752d1871fa7dfa1a46b2c2323d17926"
         ),
         .binaryTarget(
             name: "libbluray",
-            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.2/libbluray.zip",
-            checksum: "0cc55843b2b55757e87743a6e7b1ff28cbe0f15174378c40132d56e6e48a2e25"
+            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.3/libbluray.zip",
+            checksum: "7bcd241a12a74497c445dffee8dbddaa61f7caa9b61f82f707ba92cdfa3ac563"
         ),
         .binaryTarget(
             name: "libdav1d",
-            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.2/libdav1d.zip",
-            checksum: "450bb862215daafad90e31147b79a48d342b76959bbf995936b7ec95a9ca8acd"
+            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.3/libdav1d.zip",
+            checksum: "df95401042f462a6d9fd155797eb0900009d9af985846ed11ed0cd18b8d8f480"
         ),
         .binaryTarget(
             name: "libfontconfig",
-            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.2/libfontconfig.zip",
-            checksum: "5be1964cb6ce83d86c2de9107aaace7b9dc2be847738a2683e3950038cffa918"
+            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.3/libfontconfig.zip",
+            checksum: "53e986f71c022db944812715aeef8a759d400333208ed8cc23a05e4ec434ef01"
         ),
         .binaryTarget(
             name: "libfreetype",
-            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.2/libfreetype.zip",
-            checksum: "1dd31640a3d4288a1e46291ba7e49d74fe241f7a3233c42148ba6542e3fd40c5"
+            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.3/libfreetype.zip",
+            checksum: "0ee2053cdf739127dd14bfd3a6cbdcc5f9b803704ee21f2fe7872577def9a3f5"
         ),
         .binaryTarget(
             name: "libfribidi",
-            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.2/libfribidi.zip",
-            checksum: "20429bd4796471e102930132ebbcc7bd24b7a16471266d320f157f784c85dc53"
+            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.3/libfribidi.zip",
+            checksum: "442d4767e40ceb7d1db411f4d4ff16b739730ed6bd71eda84957f5109145e868"
         ),
         .binaryTarget(
             name: "libharfbuzz",
-            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.2/libharfbuzz.zip",
-            checksum: "cfaccc1973a50f9137ca70c5fb42d279590b442029b77202db4c909a54ad9c53"
+            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.3/libharfbuzz.zip",
+            checksum: "386836dbe856b09d68d95222b6931a90c092f4d36b4373eaa2d7af36bfb4036d"
         ),
         .binaryTarget(
             name: "libmpv",
-            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.2/libmpv.zip",
-            checksum: "ce3d0f5ab96073f74180f2f95a1ee4cb537ba7ca0c0d661d05741b785b76c9dd"
+            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.3/libmpv.zip",
+            checksum: "b3dc8188cafbf2d71c3b5a47452c2e128c47825edfe64fb49012a43532c5f576"
         ),
         .binaryTarget(
             name: "libplacebo",
-            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.2/libplacebo.zip",
-            checksum: "8467bac7131bfb1a94c7c1a6f4745068820cf6144799da58cfd73d70dfccfa40"
+            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.3/libplacebo.zip",
+            checksum: "21d76ec0a73e38309f1cc7733a2a9219e805231010c4d01242b570d8337a9f1d"
         ),
         .binaryTarget(
             name: "libshaderc_combined",
-            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.2/libshaderc_combined.zip",
-            checksum: "d2852a10783e1527ec0f8336b283c7ee520d63c4bcefa8dd078b87347eccf201"
+            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.3/libshaderc_combined.zip",
+            checksum: "3045e4d6830ad95df1247ba1144f0bf0ba117d5cb35ff94dca8addd173786005"
         ),
         .binaryTarget(
             name: "libsmbclient",
-            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.2/libsmbclient.zip",
-            checksum: "750c68189eb5a5b327c6c6832fe9b199b0610c73bf2b760ebadfb3b272023bdb"
+            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.3/libsmbclient.zip",
+            checksum: "db1ba6517adfd1ca128bffaff2c3729492237255e8c7fcc7e732e85754b76e67"
         ),
         .binaryTarget(
             name: "libsrt",
-            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.2/libsrt.zip",
-            checksum: "7b23658453b5ed7e21c1dd49ce67e6bb87230c549f8e9c9094d28b33884e62cd"
+            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.3/libsrt.zip",
+            checksum: "a3b25f5636eed277ae1884012985b26e2cae0561131a1241f2fe590d79127004"
+        ),
+        .binaryTarget(
+            name: "libunibreak",
+            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.3/libunibreak.zip",
+            checksum: "de9bfe280077a4b6dfa2fcc11f5911073a4b13360673e7cb82b4e3fe14b6aab2"
         ),
         .binaryTarget(
             name: "libzvbi",
-            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.2/libzvbi.zip",
-            checksum: "0de2fdecd74cfe5273d43f279c72888437df428678eb2884599993511b5a3bf6"
+            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.3/libzvbi.zip",
+            checksum: "56721567f70b3cf77004052d9a5ebbdaa70b57fab7a9754e3f23e16b68da0eb6"
         ),
         .binaryTarget(
             name: "nettle",
-            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.2/nettle.zip",
-            checksum: "e57eea4b9000cfddf49ac899826b365e60afafe0f5e5d54c1896f23d1abb25c0"
+            url: "https://github.com/Tinuv-Dev/FFMPEGBuilder/releases/download/1.1.3/nettle.zip",
+            checksum: "e6ba67024a8a4fd9ef52409242762c5019796b8ffbe1ac6bed24c46919f0a656"
         ),
     ]
 )
